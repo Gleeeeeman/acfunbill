@@ -1,6 +1,5 @@
 {
-	"versionUrl": "http://gleeman.familyds.com:45678/version.json",
-    "awardsUrl": "http://gleeman.familyds.com:45678/awardsList.json",
-	"awardUrl" : "",
-    "downloadUrl": "http://gofile.me/5cVEP/7VpDREUqz"
+	"versionUrl":	 "http://raw.githubusercontent.com/Gleeeeeman/acfunbill/main/version.json",
+   	"awardsUrl":	 "http://raw.githubusercontent.com/Gleeeeeman/acfunbill/main/awardsList.json",
+   	"downloadUrl":	 "https://github.com/Gleeeeeman/acfunbill/releases/"
 }
