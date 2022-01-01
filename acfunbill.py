@@ -80,6 +80,10 @@ def getGiftList(response):
         if(giftListDict['data']['giftList'][i]['payWalletType'] == 1):
             giftPriceList[giftListDict['data']['giftList'][i]['giftName']] = giftListDict['data']['giftList'][i]['giftPrice']
             
+    giftfilename = "giftList.json"
+    with open(giftfilename,"w",encoding='utf-8') as giftjsonfile:
+        json.dump(giftPriceList, giftjsonfile, ensure_ascii=False, sort_keys=False, indent=4)
+    
     return giftPriceList
 
 def getRewardRecords(pcursor:str):
