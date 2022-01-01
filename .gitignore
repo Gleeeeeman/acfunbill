@@ -1,0 +1,12 @@
+/__pycache__
+/build
+/dist
+/old_version
+
+*.xlsx
+*.html
+icon_512.ico
+礼物id.txt
+test.py
+tmp.py
+*.spec
